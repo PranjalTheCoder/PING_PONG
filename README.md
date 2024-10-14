@@ -22,3 +22,8 @@ This is a fully functional Ping Pong Game built using HTML, CSS, and JavaScript.
 2. The game starts as soon as the ball begins to move.
 3. The objective is to prevent the ball from passing your paddle. 
 4. Keep playing and try to beat the highest score!
+
+
+## Creator
+This project was created by [Pranjal Tamrakar](https://github.com/PranjalTheCoder).
+
