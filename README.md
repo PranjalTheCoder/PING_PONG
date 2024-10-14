@@ -1,7 +1,7 @@
 # PING_PONG
 
 
-This is a fully functional Ping Pong Game built using HTML, CSS, and JavaScript. The game includes dynamic ball movement, paddle controls, scoring system, and tracks the highest score using local storage.
+This is a fully functional **Ping Pong Game** built using **HTML, CSS, and JavaScript**. The game includes dynamic ball movement, paddle controls, scoring system, and tracks the highest score using **local storage**. Player 1 is controlled by the user, while **Player 2 is an AI-controlled computer**.
 
 
 
@@ -10,7 +10,8 @@ This is a fully functional Ping Pong Game built using HTML, CSS, and JavaScript.
 
 
 ## Features
-- **Responsive Controls**: Use arrow keys to move the paddles.
+- **Player vs AI**: Player 2 is controlled by a simple AI that moves to block the ball.
+- **Responsive Controls**: Use arrow keys to move the paddle for Player 1.
 - **Ball Dynamics**: Realistic ball movement and collision with paddles.
 - **Scoring System**: Points are awarded based on successful returns.
 - **High Score Tracking**: The game stores the highest score in the browser using local storage.
@@ -18,10 +19,11 @@ This is a fully functional Ping Pong Game built using HTML, CSS, and JavaScript.
 
 
 ## How to Play
-1. Press the arrow keys to move the paddles.
-2. The game starts as soon as the ball begins to move.
-3. The objective is to prevent the ball from passing your paddle. 
-4. Keep playing and try to beat the highest score!
+1. Use the arrow keys to control Player 1's paddle.
+2. Player 2 is controlled by the computer's AI.
+3. The game starts as soon as the ball begins to move.
+4. Prevent the ball from passing your paddle to earn points.
+5. Try to beat the highest score!
 
 
 ## Creator
