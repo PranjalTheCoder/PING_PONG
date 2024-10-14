@@ -1,8 +1,13 @@
 # PING_PONG
 
+
 This is a fully functional Ping Pong Game built using HTML, CSS, and JavaScript. The game includes dynamic ball movement, paddle controls, scoring system, and tracks the highest score using local storage.
 
+
+
 ![Screenshot 2024-10-14 145146](https://github.com/user-attachments/assets/041fa696-55f6-4e5f-8b08-430b4e1e2488)
+
+
 
 ## Features
 - **Responsive Controls**: Use arrow keys to move the paddles.
