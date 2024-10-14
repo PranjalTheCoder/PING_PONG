@@ -24,22 +24,27 @@ ctx.stroke();
 let ballX = 200;
 let ballY = 200;
 let ballR = 50;
+let ballVx = 2;
+let ballVy = 2;
 
-function gameUpdate() {}
+function gameUpdate() 
+{
+    ballX = ballX + ballVx;
+    ballY = ballY + ballVy;
+}
 
-function gameDraw() {}
+function gameDraw() 
+{
+    ctx.beginPath();
+    ctx.arc(ballX, ballY, ballR, 0, Math.PI*2);
+    ctx.stroke();
+
+}
 
 function gameLoop()
 { 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     window.requestAnimationFrame(gameLoop);
-
-    ballX = ballX + 1;
-    ballY = ballY + 1;
-
-    ctx.beginPath();
-    ctx.arc(ballX, ballY, ballR, 0, Math.PI*2);
-    ctx.stroke();
 
     gameUpdate();
     gameDraw();
